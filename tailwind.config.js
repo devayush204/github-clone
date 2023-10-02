@@ -7,7 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-     
+      textColor: {
+        'darkText': '#767D88', 
+        'primary-color':'white', 
+      },
+      borderColor:{
+        'primaryBorder':'#767D88',
+      },
+      fill:{
+        'primaryBg':'#767D88',
+      },
+      
     },
   },
   plugins: [],
