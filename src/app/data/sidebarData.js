@@ -30,37 +30,37 @@ const data = [
         subcat: "insta clone"
     },
     {
-        id: 6,
+        id: 7,
         cat: "devayush204",
         subcat: "insta clone"
     },
     {
-        id: 6,
+        id: 8,
         cat: "devayush204",
         subcat: "insta clone"
     },
     {
-        id: 6,
+        id: 9,
         cat: "devayush204",
         subcat: "insta clone"
     },
     {
-        id: 6,
+        id: 10,
         cat: "devayush204",
         subcat: "insta clone"
     },
     {
-        id: 6,
+        id: 11,
         cat: "devayush204",
         subcat: "insta clone"
     },
     {
-        id: 6,
+        id: 12,
         cat: "devayush204",
         subcat: "insta clone"
     },
     {
-        id: 6,
+        id: 13,
         cat: "devayush204",
         subcat: "insta clone"
     },
