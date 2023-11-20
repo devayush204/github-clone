@@ -9,8 +9,8 @@ const Sidebar = () => {
 
 
     return (
-        <div className='w-[22%] h-full bg-[#191c20] flex flex-col px-5'>
-            <div className='flex flex-col'>
+        <div className='w-[22%] h-[100vh] bg-[#0D1117] flex flex-col px-5 border-r-[1px] border-r-[#494e68bd]'>
+            <div className='flex flex-col mt-8'>
                 <div className='flex justify-between py-1 items-center'>
                     <p className='text-white text-[13px]'>Top Repositories</p>
                     <a href="/">
@@ -58,6 +58,13 @@ const Sidebar = () => {
                         Show more 
                     </button>
                 )}
+            </div>
+
+            <div className='mt-5 '>
+                <p className='text-primary-color text-[15px] mb-1'>Recent activity</p>
+                <div className='border border-dashed rounded-md border-primaryBorder p-4'>
+                    <p className='text-darkText text-[12px]'>When you take actions across GitHub, we’ll provide links to that activity here.</p>
+                </div>
             </div>
         </div>
     )

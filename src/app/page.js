@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
+import HomeMiddle from "./components/HomeMiddle";
 
 
 export default function Home() {
@@ -11,9 +12,14 @@ export default function Home() {
   <section>
     <Navbar/>
 
-    <div>
+    <div className="flex ">
       <Sidebar/>
+   {/* center content  */}
+      <div>
+        <HomeMiddle/>
+      </div>
     </div>
+    
   </section>
   )
 }
